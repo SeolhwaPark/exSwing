@@ -1,0 +1,14 @@
+package componet;
+
+//선택상자, 리스트상자
+import javax.swing.*;
+import java.awt.*;
+
+public class Exam07 {
+
+	
+	public static void main(String[] args) {
+		new Exam07();
+	}
+
+}

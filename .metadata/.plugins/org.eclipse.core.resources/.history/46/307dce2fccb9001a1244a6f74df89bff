@@ -1,0 +1,19 @@
+package exEvent;
+
+import javax.swing.JButton;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+
+public class Exam02 {
+	JTextField tx1,tx2,tx3;
+	JTextArea txar;
+	JButton btn1,btn2;
+	JPanel p1,p2,p3;
+	
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

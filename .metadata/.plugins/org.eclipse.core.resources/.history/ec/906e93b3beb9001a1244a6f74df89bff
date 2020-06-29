@@ -1,0 +1,24 @@
+package exEvent;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+	
+public class Exam01 extends JFrame{
+	
+	JTextField tx1; //입력받기 위한 컴포넌트
+	JTextArea txar1; // 입력값을 출력할 컴포넌트
+	JPanel p1,p2,p3;
+	JButton btn1,btn2;
+	
+	public Exam01() {
+		tx1 = new JTextField(10);
+	}
+	
+	public static void main(String[] args) {
+	
+		
+	}
+}

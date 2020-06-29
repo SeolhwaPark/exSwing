@@ -1,0 +1,26 @@
+package componet;
+
+//선택상자(직업선택) = 펼침목록, 리스트상자
+import javax.swing.*;
+import java.awt.*;
+
+public class Exam07 {
+	JFrame frm;
+	JComboBox combo1, combo2;
+	JPanel panel1, panel2;
+	
+	public Exam07() {
+		frm = new JFrame("컴포넌트 테스트 1.1");
+		combo1 = new JComboBox();
+		
+		
+		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frm.setSize(300,400);
+		frm.setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new Exam07();
+	}
+
+}

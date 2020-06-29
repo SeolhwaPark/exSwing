@@ -1,0 +1,12 @@
+package componet;
+
+import javax.swing.*;
+import java.awt.*;
+
+public class Exam06 extends JFrame{
+
+	public static void main(String[] args) {
+		new Exam06();
+	}
+
+}

@@ -1,0 +1,50 @@
+package componet;
+
+import java.awt.BorderLayout;
+import java.util.Vector;
+
+//선택상자(직업선택),selectBox = combobox펼침목록, 리스트상자
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+public class Exam07 {
+	JFrame frm;
+	JComboBox combo1, combo2;
+	JPanel panel1, panel2;
+	
+	public Exam07() {
+		frm = new JFrame("컴포넌트 테스트 1.1");
+		combo1 = new JComboBox();
+		combo1.addItem("교사");
+		combo1.addItem("교원");
+		combo1.addItem("공무원");
+		combo1.addItem("기타");
+		
+		panel1 = new JPanel();
+		panel1.add(new JLabel("직업선택:"));
+		panel1.add(combo1);
+		
+		String[] str = {"학생","교사","학부모"};
+		Vector<String> vc = new Vector();
+		vc.add("AAA");
+		
+		combo2 = new JComboBox(str);
+		panel2 = new JPanel();
+		panel2.add(new JLabel("옵션선택:"));
+		panel2.add(combo2);
+		
+		frm.add(BorderLayout.NORTH, panel1);
+		frm.add(BorderLayout.SOUTH, panel2);
+		
+		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frm.setSize(300,400);
+		frm.setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		new Exam07();
+	}
+
+}
