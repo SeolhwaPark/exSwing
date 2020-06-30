@@ -1,0 +1,9 @@
+package exEvent;
+
+import java.awt.event.ActionListener;
+
+import javax.swing.JFrame;
+
+public class Test0630 extends JFrame implements ActionListener {
+
+}

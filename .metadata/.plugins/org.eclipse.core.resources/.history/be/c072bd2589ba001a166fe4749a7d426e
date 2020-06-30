@@ -1,0 +1,42 @@
+package exEvent;
+
+import java.awt.BorderLayout;
+import java.awt.FlowLayout;
+
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextArea;
+
+/*
+ * JRadioButton, JCheckBox
+ * 
+ */
+public class Exam03 extends JFrame{
+	JRadioButton radio1,radio2;
+	JCheckBox check1, check2,check3;
+	JTextArea txar;
+	
+	public Exam03() {
+		radio1 = new JRadioButton("남");
+		radio2 = new JRadioButton("여");
+		JPanel p1 = new JPanel(new FlowLayout(FlowLayout.LEFT));
+		p1.add(new JLabel("성  별"));
+		p1.add(radio1);
+		p1.add(radio2);
+		
+		add(BorderLayout.NORTH, p1);
+		
+		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setTitle("ItemEvent 테스트");
+		setSize(300,300);
+		setVisible(true);
+	}
+	public static void main(String[] args) {
+		new Exam03();
+	}
+
+}

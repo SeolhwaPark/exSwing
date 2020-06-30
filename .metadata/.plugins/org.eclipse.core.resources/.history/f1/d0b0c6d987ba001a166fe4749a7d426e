@@ -1,0 +1,23 @@
+package exEvent;
+
+import javax.swing.JCheckBox;
+import javax.swing.JFrame;
+import javax.swing.JRadioButton;
+import javax.swing.JTextArea;
+
+/*
+ * JRadioButton, JCheckBox
+ * 
+ */
+public class Exam03 extends JFrame{
+	JRadioButton radio1,radio2;
+	JCheckBox check1, check2,check3;
+	JTextArea txar;
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
